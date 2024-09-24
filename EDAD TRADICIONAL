@@ -1,0 +1,30 @@
+//Programa:Edad//
+#include <stdio.h>
+#include <stdlib.h> // modifique la funcion conio.h, presentaba problemas al compilar en mi pc
+int main ()
+{
+int num1= 2024;
+int num2= 0;
+int result= num1- num2;
+
+char nombre[25];
+char apellido[25];
+char edad[4];
+//nombre
+printf ("introduzca su nombre:");
+scanf ("%s", nombre);
+//apellido
+printf ("Introduzca su apellido:");
+scanf ("%s", apellido);
+//edad
+printf ("Introduzca su año de nacimiento:");
+scanf ("%d",&num2);
+//calcular edad
+result = num1 - num2;
+
+//saludo y edad
+printf ("hola %s %s, ¿Que tal tu dia?\n:", nombre, apellido);
+printf ("tu edad es: %d",result);
+system("pause");
+return 0;
+}
