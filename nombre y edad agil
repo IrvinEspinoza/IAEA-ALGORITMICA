@@ -1,0 +1,24 @@
+#include <iostream>
+
+int main()
+{
+    char nombre [25], apellido[20];
+    float edad=0;
+    float num1= 2024;
+    float num2= 0;
+
+    std::cout<<"ingresa tu nombre: ";
+    std::cin>>nombre;
+
+    std::cout<<"ingresa tu apellido: ";
+    std::cin>>apellido;
+
+    std::cout<<"ingresa tu anio de nacimiento:";
+    std::cin>>num2;
+    edad = num1 - num2;
+
+   std::cout << "Tu nombre, apellido y edad son: " << nombre << " " << apellido << " " << edad << std::endl;
+
+
+    return 0;
+}
